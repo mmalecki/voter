@@ -1,4 +1,6 @@
 # voter
+[![Build Status](https://travis-ci.org/mmalecki/voter.png?branch=master)](https://travis-ci.org/mmalecki/voter)
+
 Distributed voting based on Scuttlebutt
 
 ## Installation
