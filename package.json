@@ -2,7 +2,13 @@
   "name": "voter",
   "version": "0.0.1",
   "description": "Distributed voting based on Scuttlebutt",
-  "keywords": ["p2p", "scuttlebutt", "voting", "distributed"],
+  "keywords": [
+    "p2p",
+    "scuttlebutt",
+    "voting",
+    "distributed"
+  ],
+  "main": "./lib/voter.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mmalecki/voter.git"
@@ -12,5 +18,11 @@
     "node-uuid": "~1.4.1",
     "scuttlebutt": "~5.6.8"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "~0.4.4"
+  },
+  "scripts": {
+    "test": "tap test/*-test.js"
+  }
 }
